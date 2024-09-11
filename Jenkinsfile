@@ -14,7 +14,7 @@ pipeline {
     }
     post {
         always {
-            mail to: 'your-email@example.com',
+            mail to: 'n.divyashree272000@gmail.com',
                  subject: "Jenkins Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
                  body: """Build completed.
                  Check console output at ${env.BUILD_URL}"""
